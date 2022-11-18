@@ -4,3 +4,5 @@ type Book = {
   authors: string[];
   isbn: string;
 };
+
+type BookProvider = "googleBooksSearch" | "openLibrarySearch"

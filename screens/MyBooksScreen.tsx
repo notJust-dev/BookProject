@@ -4,7 +4,7 @@ import { View } from "../components/Themed";
 
 import { useMyBooks } from "../context/MyBooksProvider";
 
-export default function TabTwoScreen() {
+export default function MyBooksScreen() {
   const { savedBooks } = useMyBooks();
 
   return (
